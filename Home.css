@@ -1,0 +1,254 @@
+/*
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.slide{
+    width: 100%;
+    height: 100vh;
+    background: url('https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/36657903_1693176514111063_1884061745979326464_n.jpg?_nc_cat=0&oh=1fb37797a1041b3b20749d773675ed0b&oe=5BF92569');
+    background-position: center;
+    background-size: cover;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+}
+body {
+    margin: 0;
+
+}
+
+.navbar{
+    height:70px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color:white;
+    z-index: 999;
+    position: fixed;
+}
+.pestanas{
+    display: flex;
+    font-size: 24px;
+}
+.pestanas p{
+    margin: 0 20px;
+}
+.slogan{
+    width: 100%;
+    height: 100%;
+    text-align: center ;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.slogan h1{
+    font-size: 70px;
+    color:white;
+    margin-bottom: 5px;
+}
+.move{
+    cursor: pointer;
+}
+.move p{
+    font-size: 40px;
+    color:white;
+    opacity: 0;
+    margin-top: 50px;
+    transition: all 1s ease;
+}
+.move hr{
+    background-color: white;
+    width:0px;
+    height:3px;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.move:hover hr{
+    width:120px;
+
+}
+.move:hover p{
+    opacity: 1;
+    margin-top: 10px;
+}
+
+
+!*ABOUT*!
+.navbar a{
+   color:white;
+    text-decoration: none;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color:#222;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.descript{
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+}
+.descript div{
+    width:350px;
+    flex-grow: 1;
+}
+
+.photo{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid white;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/19059459_1314745991954119_2064217828501685113_n.jpg?_nc_cat=0&oh=785cee1965c5e6025c853af1dbfc4665&oe=5C0BDFED');
+    transition: all 1s ease;
+}
+
+.about_me h2{
+    font-size: 32px;
+    color: white;
+}
+.about_me p{
+    font-size: 24px;
+    color: white;
+    line-height: 150%;
+}
+.about_me i{
+    color:white;
+    margin: 0 10px;
+    font-size: 32px;
+}
+.photo:hover {
+    background-image: url('https://scontent-dfw5-1.xx.fbcdn.net/v/t31.0-8/18216655_1270567976371921_998450448787808737_o.jpg?_nc_cat=0&oh=1f1bf8501ba964a7cda9e697bc34adde&oe=5C019ED3');
+}
+
+*/
+
+@keyframes escala{
+       0%{
+           transform: scale(1);
+       }
+        50%{
+            transform: scale(1.3);
+        }
+       100%{
+           transform: scale(1);
+       }
+}
+
+body{
+    margin: 0;
+}
+.slide{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/1125298/pexels-photo-1125298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(1000%);
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.info h1{
+    font-size: 5rem;
+    color:white;
+    margin-bottom: 0;
+}
+.info p{
+    font-size: 2rem;
+    color:white;
+    margin-top: 0;
+}
+.info i{
+    font-size: 5rem;
+    color:white;
+}
+.flexin{
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.overflow{
+    width:700px;
+    height: 400px;
+    flex-grow: 1;
+    margin: 5px ;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+.proyectos a{
+    color:inherit;
+    text-decoration: none;
+}
+.uno{
+    width:100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+.dos{
+    width: 250px;
+    height: 400px;
+    flex-grow: 1;
+    margin: 5px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.fotito_uno{
+    background-image: url('https://images.pexels.com/photos/1065705/pexels-photo-1065705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+.fotito_dos{
+    background-image: url('https://images.pexels.com/photos/613508/pexels-photo-613508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+.fotito_tres{
+    background-image: url('https://images.pexels.com/photos/53874/pexels-photo-53874.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+.fotito_cuatro{
+    background-image: url('https://images.pexels.com/photos/417194/pexels-photo-417194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+.fotito_cinco{
+    background-image: url('https://images.pexels.com/photos/296121/pexels-photo-296121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    color:white;
+    display: none;
+
+}
+.cover h3{
+    font-size: 32px;
+}
+.uno:hover {
+    animation: escala;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.uno:hover .cover{
+    display: flex;
+}
